@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+
+
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color:  #EDE574   ;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Navigation Bar Style */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+background-color:#90EE90;
+overflow:hidden;
+
+}
+
+.navbar{
+ font-family: Garamond, serif;
+   src: url(sansation_light.woff); 
+   font-weight: bold;
+}
+/* Banner Styles */
+#banner {
+        background-size: 100%;
+        width: 100%;
+        height: 470px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+        display: block;
+}
+video {
+  width: 100%;
+  height: 470px;
+}
+.brief { 
+ font-family: Garamond, serif;
+   src: url(sansation_light.woff); 
+   font-weight: bold;
+}
+
+.h1{
+ font-family: Garamond, serif;
+   src: url(sansation_light.woff); 
+   font-weight: bold;
+}
+
+/* Main Content Article Styles */
+  #main-content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+article {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+article h4 {
+  margin: 0;
+}
+
+
+h4{
+color:black;
+font-family: Garamond, serif;
+   src: url(sansation_light.woff); 
+   font-weight: bold;
+}
+
+.data{
+color:black;
+}
+
+p{
+color:black;
+font-size:20px;
+font-weight:800;
+}
+
+img{
+width:200px;
+height:140px;
+}
+
+img:hover{
+box-shadow: 0 5px 3px 3px black;
+}
+
+.column{
+  float: left;
+  width: 23%;
+  padding: 5px;
+  height: 600px;
+  }
+  
+{
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  height: 33%;
+}
+
+/* Clearfix (clear floats) */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #EDE574  ;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Add any content for the header here -->
+    <h1 class="h1">Evolution of Skyline GTR</h1>
+    <nav>
+		<div class="navbar">
+      <ul>
+        <li><a href="C:\Users\Ailynsay\Desktop\CSS\WebsiteLayout.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+	  </div>
+    </nav>
+	
+
+  </header>
+
+  <div id="banner">
+    <!-- Add any content for the banner here -->
+	
+<video controls autoplay>
+  <source src="evo.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+  </div>
+  <br>
+  <center>
+<h2>A Brief History of Skyline</h2>
+<p class="brief">The legendary Skyline, first introduced in 1957, was originally built by Japan’s Prince Motor Company. 
+Production of the Prince Skyline lasted from 1957 until 1966, when Prince and Nissan merged. 
+With humble origins as a rather modest 4-door luxury car, the Skyline began to evolve into a performance-bred sportscar following the merger. 
+Today the Skyline is most recognized as the influential predecessor to the modern GT-R</p>
+
+<p class="brief">	By the time the Skyline H/T 2000GT-R was produced, now in a coupe body style, the GT-R racked up its 50th overall racing victory. 
+The following year, the KPGC110 hit the market, but after a production run of a mere 197 units, Nissan pulled the plug on the GT-R, 
+citing stricter emissions standards and the international oil crisis as the main reasons. The GT-R would not be seen for another 16 years.</p></center>
+  <aside id="sidebar">
+    <!-- Add any content for the sidebar here -->
+  </aside>
+
+  <div id="main-content">
+    <article>
+      
+<div class="column">
+<p class="data">1957 Prince Skyline Deluxe</p>
+<center><img src="1st.png"></center><br>
+<h4>The Nissan Skyline was originally produced by the Prince Motor Company in 1957, and then by Nissan (becoming the 'Nissan Skyline') after the two companies merged in 1966. 
+The Skyline was available as either a four-door sedan or a five-door station wagon, and it featured a 1.5L GA-30 engine. 
+It wasn’t until 1964 that the first racing GT Skyline was introduced, still under the Prince Motors flag. 
+The introduction of the GT Skyline marked the Skyline’s shift from sedan to race car.</h4>
+</div>
+
+<div class="column">
+<p class="data">The 1969 Skyline 2000 GTR</p>
+<img src="th.jpg"><br><br>
+<h4>The 1969 GT-R version of the Skyline was a touring car like no other.  
+Taking cues from the Nissan Prince R380 racing prototype, it relied on a four-valve 
+Dual Overhead Cam engine for power and four-wheel independent suspension for its remarkable handling.  
+The car obliterated the competition in Japan's domestic touring races, winning 52 races in its first three years of competition.</h4>
+</div>
+	    
+<div class="column">
+<p class="data">The 1990 Skyline GT-R R32</p>
+<img src="3rd.jpg"><br><br>
+<h4>The  R32 Skyline GT-R had all-wheel drive and the famed Nissan  RB26DETT inline six engine that pumped out 280 horsepower. 
+It still  wasn’t sold in America, but the JDM (Japanese Domestic  Market) model was and still is a legend in the American tuner  community.
+A stripped-down version of the R32 entered the Japanese  Touring Car Championship in 1989 and won every race it started—29 in a row—over the next four seasons. 
+It was then that the legend of the  GT-R was truly born.</h4>
+</div>
+
+<div class="column">
+<p class="data">The 1993 R33 SKYLINE GT-R</p>
+<img src="4th.png"><br><br>
+<h4>After first appearing to the motoring world as a prototype at the Tokyo Motor Show in 1993, 
+the R33 Skyline GT-R was finally launched to the public in January 1995 again with the famed RB26DETT.
+In its evolution from the R32, the R33 Skyline GT-R became a faster, more stable car, thanks to highly improved body stiffness, 
+better weight distribution and optimized traction control provided by the new all-wheel drive system called “ATTESA E-TS PRO”.</h4>
+</div>
+    </article>
+  </div>
+  <h2>2020 Featured Vehicles:</h2>
+   <img src="nissan.jpg" style="width:30%" style="height:30%">
+     <h2>2020 Featured Vehicles:</h2>
+   <img src="NISSAN-CONCEPT-2020-VGT_main.jpg" style="width:30%" style="height:30%">
+     <h2>2020 Featured Vehicles:</h2>
+   <img src="nissan.jpg" style="width:30%" style="height:30%">
+   
+<br>
+<br>
+<hr>
+<h3>Read more articles:</h3><br>
+	<div class="row">
+  <div class="column1">
+    <img src="1.jpg" style="width:100%">
+	<a href="https://www.91wheels.com/faqs/what-are-the-top-competitors-of-nissan-gtr/7727">What are the top competitors of Nissan GTR?</a>
+  </div>
+  <div class="column1">
+    <img src="th (1).jpg"  style="width:100%">
+	<a href="https://carfromjapan.com/article/car-review/interesting-nissan-skyline-facts/">Interesting Nissan Skyline Facts You Didn’t Know</a>
+  </div>
+  <div class="column1">
+    <img src="th (2).jpg"  style="width:100%">
+	<a href="https://carfromjapan.com/article/car-comparison/nissan-gtr-vs-skyline/">Nissan GTR vs Skyline: What Are the Basic Differences?</a>
+  </div>
+</div>
+<br><br>
+  <footer>
+    <!-- Add any content for the footer here --> 
+<div class="footer">
+<div class="row">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook">Facebook </i></a>
+<a href="https://www.instagram.com/"><i class="fa fa-instagram">Instagram </i></a>
+<a href="https://www.youtube.com/"><i class="fa fa-youtube">Youtube </i></a>
+<a href="https://twitter.com/"><i class="fa fa-twitter">Twitter </i></a>
+</div>
+    <p>&copy; 2023 Evolution of Skyline GTR</p>
+  </footer>
+
+</body>
+</html>
