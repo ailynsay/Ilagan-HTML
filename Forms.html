@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>HTML Form</title>
+
+</head>
+
+<body>
+
+
+<h1>HTML Form</h1>
+
+<form>
+
+<fieldset>
+
+<legend><b>Personal Information</b></legend>
+
+<label for="name">Name:</label> <input type="text" id="name" name="name" required>
+
+<br><br>
+
+<label for="email">Email:</label> <input type="email" id="email" name="email" required>
+
+<br><br>
+
+<label for="phone">Phone:</label> <input type="tel" id="phone" name="phone" required>
+
+</fieldset> <fieldset>
+
+<legend><b>Gender</b></legend> 
+<input type="radio" id="male" name="gender" value="sale" required>
+
+<label for="male">Male</label>
+<br>
+
+<input type="radio" id="female" name="gender" value="female">
+
+<label for="female">Female</label>
+
+<br> <input type="radio" id="other" name="gender" value="other">
+
+<label for="other">Other</label>
+<br>
+</fieldset>
+
+<fieldset>
+  <legend><b>City:</b></legend>
+                    <select name="City">
+            <label>    
+            <option>Manila</option>
+            <option>Makati</option>
+            <option>Pasay</option>
+            <option>Malabon</option>
+            <option>Quezon</option>
+            <option>Paranaque</option>
+        </select>
+		</fieldset>
+<fieldset>
+
+<legend><b>Hobbies</b></legend>
+
+<input type="checkbox" id="hobby1" name="hobbies" value="reading">
+
+<label for="hobby1">Reading</label>
+
+<br>
+
+<input type="checkbox" id="hobby2" name="hobbies" value="music"> 
+<label for="hobby2">Listening to Music</label>
+
+<br> 
+
+<input type="checkbox" id="hobby3" name="hobbies" value="sports">
+<label for="hobby 3">Playing Sports</label>
+
+<br> 
+
+<input type="checkbox" id="hobby4" name="hobbies" value="instrument">
+<label for="hobby 4">Playing Instrument</label>
+
+<br> 
+
+<input type="checkbox" id="hobby5" name="hobbies" value="technology">
+<label for="hobby 5">Fixing Technology</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend><b>Upload a file</b></legend> <input type="file" id="file" name="File">
+
+</fieldset>
+
+<fieldset>
+
+<legend><b>Date and Time</b></legend> <label for="date">Date:</label>
+
+<input type="date" id="date" name="date">
+
+<br>
+
+<label for="time">Time:</label> <input type="time" id="time" name="time">
+
+</fieldset> <fieldset>
+
+<legend><b>Numerical Control</b></legend> <label for="quantity">Quantity (between 1 and 10):</label>
+
+<input type="number" id="quantity" name="quantity" min="1" max="10">
+
+</fieldset>
+
+<fieldset>
+		<legend><b>Comments</b></legend>
+		<textarea id="comments" name="comments" rows="6" cols="35">Write your concerns here</textarea>
+	</fieldset>
+	
+<fieldset>
+
+<legend><b>Sign-in your Account</b></legend>
+<label for="username">Username:</label>
+
+<input type="text" id="username" name="username"><br><br>
+
+<label for="password">Password:</label>
+
+<input type="password" id="password" name="password">
+
+<a href="#">Forgot Password?</a>
+
+<br><br>
+
+<button type="submit"><b>Login</b></button>
+</fieldset>
+
+
+</form>
+</body>
+
