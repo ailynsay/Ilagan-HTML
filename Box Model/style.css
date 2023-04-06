@@ -1,0 +1,7 @@
+.box {
+width: 500px; /* sets the width of the box */
+height: 300px; /* sets the height of the box */
+padding: 20px; /* adds padding to the content */
+border: 2px solid black; /* adds a border around the box */
+margin: 50px; /* adds margin around the box */
+}
